@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 /*=============================*/
 html {
   font-size: 10px;
-  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-family: Montserrat, sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -90,16 +90,88 @@ body {
   color: #000;
 }
 
-.promo {
-  height: 2120px;
-  background-color: #e5e5e5;
-  background: url("../img/promo/bg.jpg") center/cover no-repeat;
+.content {
+  max-width: 1128px;
+  margin: 0 auto;
 }
-.promo__header {
+
+.btn {
+  width: 16.2rem;
+  height: 4.8rem;
+  border-radius: 8px;
+  background-color: #2ebd16;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+
+.promo {
+  background-color: #e5e5e5;
+  background: url("../img/promo/bg.jpg") center 5%/cover no-repeat;
+}
+.promo__logo {
+  width: 15.2rem;
+  margin-right: 15rem;
+}
+.promo__logo a {
+  color: #000;
+}
+.promo__logo-icon {
+  -webkit-transform: translateY(25%);
+          transform: translateY(25%);
+  margin-right: -0.3rem;
+}
+.promo__logo-text {
+  font-weight: 600;
+}
+.header {
   min-width: 100%;
-  min-height: 88px;
-  background-color: #f05;
+  min-height: 8.8rem;
+  line-height: 5rem;
+  padding: 2.8rem;
+  color: #062010;
+}
+.header__content {
+  max-width: 1128px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 590px;
+}
+.header_right {
+  display: inline-block;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.menu__item a {
+  color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.menu__item a:hover {
+  color: #2ebd16;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
