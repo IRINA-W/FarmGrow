@@ -188,10 +188,10 @@ body {
   font-weight: 700;
   line-height: 86.33px;
   margin-bottom: 1.6rem;
-  color: blue;
 }
 .promo__heading span {
-  color: #2aa915;
+/*  color: #2aa915;*/
+color: red;
 }
 .promo__text {
   line-height: 2.6rem;
