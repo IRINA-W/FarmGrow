@@ -1,0 +1,122 @@
+.ecosystem {
+	background-color: #fff;
+	&__yield {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__diagram {
+		// max-width: 55.2rem;
+		box-shadow: 0px 0px 31px 0px rgba(177, 177, 177, 0.2);
+		border-radius: 15px;
+		// width: 55rem;
+		display: flex;
+		// flex-grow: 1;
+		// justify-content: space-evenly;
+		padding: 43px 52px 40px;
+	}
+	&__diagram-item {
+		display: flex;
+		flex-direction: column;
+		// flex-grow: 1;
+		margin-right: 56px;
+		align-items: center;
+		// align-content: end;
+		// justify-content: end;
+		// flex-grow: 1;
+		// &:nth-child(1) {
+		// 	height: 259px;
+		// }
+		// &:nth-child(2) {
+		// 	height: 451px;
+		// }
+		// &:nth-child(3) {
+		// 	height: 188px;
+		// }
+		// &:nth-child(4) {
+		// 	height: 434px;
+		// }
+		&:last-child {
+			margin-right: 0;
+			// background: #f05;
+		}
+	}
+	&__diagram-column {
+		width: 66px;
+		height: 451px;
+		// background: $btn-grd;
+		border-radius: 12px 12px 4px 4px;
+		display: flex;
+		justify-content: center;
+		align-items: end;
+		// flex-grow: 1;
+		padding-bottom: 8px;
+		margin-bottom: 20px;
+		span {
+			display: block;
+			text-align: center;
+			color: $fc-act;
+		}
+		// &:nth-child(1) {
+		// 	height: 259px;
+		// 	// background: red;
+		// }
+		// &:nth-child(2) {
+		// 	height: 451px;
+		// 	// color: green;
+		// 	// text-align: center;
+		// }
+		// &:nth-child(3) {
+		// 	height: 188px;
+		// }
+		// &:last-child {
+		// 	height: 434px;
+		// }
+	}
+	// .cl_1 {
+	// 	height: 259px;
+	// 	transform: translateY(20px);
+	// }
+	// .cl_2 {
+	// 	height: 451px;
+	// }
+	// .cl_3 {
+	// 	height: 188px;
+	// 	transform: translateY(20px);
+	// }
+	// .cl_4 {
+	// 	height: 434px;
+	// }
+	&__diagram-text {
+		display: flex;
+		// flex-grow: -2;
+		text-align: center;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 2rem;
+		// margin-top: 50px;
+	}
+	&__extra {
+		// width: 48rem;
+	}
+	&__extra-item {}
+	&__extra-circle {}
+	&__extra-icon {}
+	&__extra-text {}
+	&__farm {}
+	&__farm-items {}
+	&__farm-item {}
+	&__farm-circle {}
+	&__farm-icon {}
+	&__farm-title {}
+	&__farm-text {}
+}
+.wrapper {
+}
+.content {
+}
+.title {
+}
+.subtitle {
+}
+.btn {
+}
