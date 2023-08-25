@@ -20,7 +20,6 @@ body {
 .wrapper {
 	max-width: 1440px;
 	margin: 0 auto;
-	// font-size: 2rem;
 	color: $fc;
 }
 
@@ -42,7 +41,7 @@ body {
 	
 	// background: linear-gradient(-65deg,#279A13 20%, #30C917 60%);
 	border: 3px solid $btn-col;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 1.8rem;
 	color: $fc-act;
 	transition: all 0.5s;

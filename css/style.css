@@ -101,7 +101,7 @@ body {
   border-radius: 8px;
   background-color: #30C917;
   border: 3px solid #30C917;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.8rem;
   color: #fff;
   -webkit-transition: all 0.5s;
@@ -131,7 +131,7 @@ body {
 }
 
 .promo {
-  background: url("../img/bg/bg1.png") -0.5% 110%/40rem no-repeat, url("../img/promo/bg.jpg") 50% 0.1rem/cover no-repeat, #fdfdfa;
+  background: url("../img/bg/bg1.png") -5.5% 110.5%/44rem no-repeat, url("../img/promo/bg.jpg") 55%/cover no-repeat, #fdfdfa;
 }
 .promo__logo a {
   color: #000;
@@ -139,9 +139,10 @@ body {
 .promo__logo-icon {
   -webkit-transform: translateY(25%);
           transform: translateY(25%);
-  margin-right: -0.2rem;
+  margin-right: 0.1rem;
 }
 .promo__logo-text {
+  font-size: 2.1rem;
   font-weight: 600;
 }
 .promo__button_pn {
@@ -172,6 +173,7 @@ body {
 }
 .promo__appeal {
   width: 50%;
+  padding-left: 14.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,15 +185,14 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.promo__heading {
+.promo__title {
   font-size: 7.2rem;
   font-weight: 700;
   line-height: 86.33px;
   margin-bottom: 1.6rem;
 }
-.promo__heading span {
+.promo__title span {
   color: #2aa915;
-
 }
 .promo__text {
   line-height: 2.6rem;
@@ -199,6 +200,8 @@ body {
 }
 .promo__icons {
   width: 50%;
+  margin-top: 1.9rem;
+  margin-left: 2rem;
 }
 .promo__icons-set {
   display: -webkit-box;
@@ -211,14 +214,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 5rem;
+  padding: 5.5rem;
   width: 65rem;
   height: 65rem;
   border-radius: 50%;
-  background: url("../img/icons/arrow.svg") center 70%/3.5rem no-repeat, url("../img/icons/central.svg") center/30rem no-repeat, rgba(51, 51, 51, 0.1);
+  background: url("../img/icons/arrow.svg") center 69%/2.8rem no-repeat, url("../img/icons/central.svg") center/31rem no-repeat, rgba(51, 51, 51, 0.1);
 }
 .promo__circle-lg {
   width: 110px;
@@ -251,17 +251,17 @@ body {
   background-color: #fff;
 }
 .promo__row-second {
-  width: 100%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: -4rem;
+  margin-top: -2rem;
 }
 .promo__row-third {
-  width: 100%;
+  width: 91%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,25 +315,26 @@ body {
   background-color: #2aa915;
 }
 .promo__arrow-play {
+  margin-right: 10px;
   width: 0;
   height: 0;
-  border-top: 2.4rem solid transparent;
-  border-bottom: 2.4rem solid transparent;
-  border-left: 4.8rem solid #fff;
-  -webkit-transform: translate(0.5rem, 0.3rem);
-          transform: translate(0.5rem, 0.3rem);
+  border-top: 2rem solid transparent;
+  border-bottom: 2rem solid transparent;
+  border-left: 3.8rem solid #fff;
+  -webkit-transform: translate(1.1rem, 0.3rem);
+          transform: translate(1.1rem, 0.3rem);
 }
 
 .header {
   min-width: 100%;
-  min-height: 8.8rem;
+  height: 6rem;
   line-height: 5rem;
-  padding: 2.8rem 0;
+  padding: 0.6rem 0;
   color: #062010;
   margin-bottom: 3.4rem;
 }
 .header__content {
-  max-width: 1128px;
+  max-width: 1140px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -349,10 +350,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 65rem;
+  width: 64.7rem;
 }
 .header_right {
   display: inline-block;
+  padding-right: 1rem;
 }
 
 .menu {
@@ -362,7 +364,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 30rem;
+  width: 34.5rem;
   font-weight: 400;
   font-size: 1.8rem;
 }
