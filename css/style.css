@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*=================обнуление стилей */
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
 * {
   padding: 0;
   margin: 0;
@@ -131,14 +131,15 @@ body {
 }
 
 .promo {
-  background: url("../img/bg/bg1.png") -5.5% 110.5%/44rem no-repeat, url("../img/promo/bg.jpg") 55%/cover no-repeat, #fdfdfa;
+  background: url("../img/promo/bg1.png") -6% 107%/44.5rem no-repeat, url("../img/promo/bg.jpg") 55%/cover no-repeat, #fdfdfa;
+  padding-bottom: 5rem;
 }
 .promo__logo a {
   color: #000;
 }
 .promo__logo-icon {
-  -webkit-transform: translateY(25%);
-          transform: translateY(25%);
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
   margin-right: 0.1rem;
 }
 .promo__logo-text {
@@ -146,6 +147,8 @@ body {
   font-weight: 600;
 }
 .promo__button_pn {
+  width: 17.7rem;
+  height: 5.6rem;
   background-color: #fbe4ee;
   border: 3px solid #ee3581;
   color: #ee3581;
@@ -169,11 +172,11 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 30.5rem;
+  padding-bottom: 28.2rem;
 }
 .promo__appeal {
   width: 50%;
-  padding-left: 14.5rem;
+  padding: 1rem 0 0 10.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,13 +198,13 @@ body {
   color: #2aa915;
 }
 .promo__text {
+  font-size: 2rem;
   line-height: 2.6rem;
   margin-bottom: 4rem;
 }
 .promo__icons {
   width: 50%;
-  margin-top: 1.9rem;
-  margin-left: 2rem;
+  padding: 3.5rem 3rem 1.5rem 1rem;
 }
 .promo__icons-set {
   display: -webkit-box;
@@ -214,11 +217,17 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 5.5rem;
-  width: 65rem;
-  height: 65rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 6.6rem;
+  width: 66rem;
+  height: 66rem;
   border-radius: 50%;
-  background: url("../img/icons/arrow.svg") center 69%/2.8rem no-repeat, url("../img/icons/central.svg") center/31rem no-repeat, rgba(51, 51, 51, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background: url("../img/icons/arrow.svg") center 69%/2.8rem no-repeat, url("../img/icons/central.svg") center/31rem no-repeat, rgba(255, 255, 255, 0.1);
 }
 .promo__circle-lg {
   width: 110px;
@@ -251,33 +260,31 @@ body {
   background-color: #fff;
 }
 .promo__row-second {
-  width: 90%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: -2rem;
+  padding: 0 2.5rem;
+  margin-top: -1rem;
 }
 .promo__row-third {
-  width: 91%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 5rem;
+  padding: 0 2.5rem;
+  margin-top: 5.5rem;
 }
 .promo__row-fourth .promo__circle-lg {
-  width: 95px;
-  height: 95px;
   background-color: inherit;
 }
 .promo__row-fourth .promo__circle-sm {
-  width: 100%;
-  height: 100%;
   background-color: inherit;
 }
 .promo__video {
@@ -327,14 +334,13 @@ body {
 
 .header {
   min-width: 100%;
-  height: 6rem;
-  line-height: 5rem;
-  padding: 0.6rem 0;
+  height: 8.4rem;
+  line-height: 6.5rem;
+  padding: 1rem 0 1rem 0;
   color: #062010;
-  margin-bottom: 3.4rem;
 }
 .header__content {
-  max-width: 1140px;
+  max-width: 1130px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -354,7 +360,6 @@ body {
 }
 .header_right {
   display: inline-block;
-  padding-right: 1rem;
 }
 
 .menu {
@@ -381,6 +386,7 @@ body {
 
 .ecosystem {
   background-color: #fff;
+  padding-top: 5rem;
 }
 .ecosystem__yield {
   display: -webkit-box;
@@ -391,9 +397,11 @@ body {
           justify-content: space-between;
 }
 .ecosystem__diagram {
+  width: 55.2rem;
+  height: 58.8rem;
   -webkit-box-shadow: 0px 0px 31px 0px rgba(177, 177, 177, 0.2);
           box-shadow: 0px 0px 31px 0px rgba(177, 177, 177, 0.2);
-  border-radius: 15px;
+  border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
