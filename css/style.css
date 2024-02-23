@@ -210,8 +210,11 @@ body {
   margin-bottom: 4rem;
 }
 .promo__icons {
-  width: 50%;
-  padding: 3.5rem 3rem 1.5rem 1rem;
+  padding: 3rem;
+  background: url("../img/icons/arrow.svg") center 67%/2.8rem no-repeat, url("../img/icons/central.svg") center no-repeat;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  border-radius: 50%;
 }
 .promo__icons-set {
   display: -webkit-box;
@@ -228,13 +231,11 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto;
-  padding: 6.6rem;
+  padding: 4rem;
   width: 66rem;
   height: 66rem;
-  border-radius: 50%;
-  -webkit-backdrop-filter: blur(6px);
-          backdrop-filter: blur(6px);
-  background: url("../img/icons/arrow.svg") center 69%/2.8rem no-repeat, url("../img/icons/central.svg") center/31rem no-repeat, rgba(248, 255, 246, 0.12);
+  -webkit-animation: icons-set 120s linear infinite;
+          animation: icons-set 120s linear infinite;
 }
 .promo__circle-lg {
   width: 110px;
@@ -250,6 +251,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ecf9f5;
+  -webkit-animation: circle-lg 120s linear infinite;
+          animation: circle-lg 120s linear infinite;
 }
 .promo__circle-sm {
   width: 92px;
@@ -275,7 +278,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 2.5rem;
-  margin-top: -1rem;
 }
 .promo__row-third {
   width: 100%;
@@ -286,13 +288,6 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 2.5rem;
-  margin-top: 5.5rem;
-}
-.promo__row-fourth .promo__circle-lg {
-  background-color: inherit;
-}
-.promo__row-fourth .promo__circle-sm {
-  background-color: inherit;
 }
 .promo__video {
   padding-bottom: 16rem;
