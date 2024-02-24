@@ -13,11 +13,12 @@ html {
 body {
 	// background-color: #e5e5e5;
 	// font-size: 2rem;
-	min-width: 100%;
+	// min-width: 100%;
 	// overflow: hidden;
 }
 
 .wrapper {
+	// width: 100%;
 	max-width: 1440px;
 	height: 100%;
 	margin: 0 auto;
@@ -25,7 +26,9 @@ body {
 }
 
 .content {
+	// width: 80%;
 	max-width: 1128px;
+	// width: 50%;
 	margin: 0 auto;
 	font-size: 2rem;
 	font-weight: 400;

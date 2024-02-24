@@ -78,10 +78,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  min-width: 100%;
-}
-
 .wrapper {
   max-width: 1440px;
   height: 100%;
@@ -173,17 +169,18 @@ body {
   transition: all 0.5s;
 }
 .promo__content {
+  width: 90%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 28.2rem;
+  padding-bottom: 33.2rem;
 }
 .promo__appeal {
   width: 50%;
-  padding: 1rem 0 0 10.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,32 +207,90 @@ body {
   margin-bottom: 4rem;
 }
 .promo__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
   padding: 3rem;
-  background: url("../img/icons/arrow.svg") center 67%/2.8rem no-repeat, url("../img/icons/central.svg") center no-repeat;
+  background: url("../img/icons/arrow.svg") center 72%/2.8rem no-repeat, url("../img/icons/central.svg") center no-repeat;
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
   border-radius: 50%;
 }
 .promo__icons-set {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0 auto;
-  padding: 4rem;
-  width: 66rem;
-  height: 66rem;
+  width: 55rem;
+  height: 55rem;
   -webkit-animation: icons-set 120s linear infinite;
           animation: icons-set 120s linear infinite;
+}
+.promo__elem {
+  width: 110%;
+  position: absolute;
+}
+.promo__elem:nth-child(1) {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  /*  transform: rotate(60deg);*/
+}
+.promo__elem:nth-child(1) img {
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+.promo__elem:nth-child(2) {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  /*  transform: rotate(120deg);*/
+}
+.promo__elem:nth-child(2) img {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.promo__elem:nth-child(3) {
+  -webkit-transform: rotate(150deg);
+          transform: rotate(150deg);
+  /*  transform: rotate(180deg);*/
+}
+.promo__elem:nth-child(3) img {
+  -webkit-transform: rotate(-150deg);
+          transform: rotate(-150deg);
+}
+.promo__elem:nth-child(4) {
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+  /*  transform: rotate(240deg);*/
+}
+.promo__elem:nth-child(4) img {
+  -webkit-transform: rotate(-210deg);
+          transform: rotate(-210deg);
+}
+.promo__elem:nth-child(5) {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  /*  transform: rotate(300deg);*/
+}
+.promo__elem:nth-child(5) img {
+  -webkit-transform: rotate(-270deg);
+          transform: rotate(-270deg);
+}
+.promo__elem:nth-child(6) {
+  -webkit-transform: rotate(330deg);
+          transform: rotate(330deg);
+}
+.promo__elem:nth-child(6) img {
+  max-width: 70%;
+  -webkit-transform: rotate(-330deg);
+          transform: rotate(-330deg);
 }
 .promo__circle-lg {
   width: 110px;
@@ -268,26 +323,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
-}
-.promo__row-second {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0 2.5rem;
-}
-.promo__row-third {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0 2.5rem;
 }
 .promo__video {
   padding-bottom: 16rem;
@@ -390,6 +425,7 @@ body {
 
 .ecosystem {
   background-color: #fff;
+  background-color: green;
   padding-top: 5rem;
 }
 .ecosystem__yield {
@@ -456,4 +492,28 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 2rem;
+}
+@-webkit-keyframes icons-set {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+@keyframes icons-set {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+@-webkit-keyframes circle-lg {
+  100% {
+    -webkit-transform: rotate(-1turn);
+            transform: rotate(-1turn);
+  }
+}
+@keyframes circle-lg {
+  100% {
+    -webkit-transform: rotate(-1turn);
+            transform: rotate(-1turn);
+  }
 }
