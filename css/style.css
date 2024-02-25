@@ -72,6 +72,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*=============================*/
+@-webkit-keyframes icons-set {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+@keyframes icons-set {
+  100% {
+    -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+  }
+}
+@-webkit-keyframes circle-sm {
+  100% {
+    -webkit-transform: rotate(-1turn);
+            transform: rotate(-1turn);
+  }
+}
+@keyframes circle-sm {
+  100% {
+    -webkit-transform: rotate(-1turn);
+            transform: rotate(-1turn);
+  }
+}
 html {
   font-size: 10px;
   font-family: Montserrat;
@@ -128,7 +152,7 @@ html {
 }
 
 .promo {
-  background: url("../img/promo/bg1.png") -6% 107%/44.5rem no-repeat, url("../img/promo/bg.jpg") 55%/cover no-repeat, #fdfdfa;
+  background: url("../img/bg/flower1.png") -6% 107%/44.5rem no-repeat, url("../img/bg/main.jpg") 55%/cover no-repeat, #fdfdfa;
   padding-bottom: 5rem;
 }
 .promo__logo {
@@ -211,8 +235,7 @@ html {
   display: -ms-flexbox;
   display: flex;
   width: 50%;
-  padding: 3rem;
-  background: url("../img/icons/arrow.svg") center 72%/2.8rem no-repeat, url("../img/icons/central.svg") center no-repeat;
+  background: url("../img/icons/00.svg") center no-repeat;
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
   border-radius: 50%;
@@ -235,7 +258,7 @@ html {
           animation: icons-set 120s linear infinite;
 }
 .promo__elem {
-  width: 110%;
+  width: 100%;
   position: absolute;
 }
 .promo__elem:nth-child(1) {
@@ -288,7 +311,6 @@ html {
           transform: rotate(330deg);
 }
 .promo__elem:nth-child(6) img {
-  max-width: 70%;
   -webkit-transform: rotate(-330deg);
           transform: rotate(-330deg);
 }
@@ -306,8 +328,6 @@ html {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ecf9f5;
-  -webkit-animation: circle-lg 120s linear infinite;
-          animation: circle-lg 120s linear infinite;
 }
 .promo__circle-sm {
   width: 92px;
@@ -323,6 +343,8 @@ html {
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
+  -webkit-animation: circle-sm 120s linear infinite;
+          animation: circle-sm 120s linear infinite;
 }
 .promo__video {
   padding-bottom: 16rem;
@@ -341,7 +363,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("../img/promo/video_bg.jpg");
+  background: url("../img/bg/video.jpg");
 }
 .promo__circle-video {
   width: 13.7rem;
@@ -372,6 +394,7 @@ html {
 .header {
   height: 8.4rem;
   color: #062010;
+  padding-bottom: 17rem;
 }
 .header__content {
   width: 90%;
@@ -492,28 +515,4 @@ html {
   font-weight: 500;
   font-size: 18px;
   line-height: 2rem;
-}
-@-webkit-keyframes icons-set {
-  100% {
-    -webkit-transform: rotate(1turn);
-            transform: rotate(1turn);
-  }
-}
-@keyframes icons-set {
-  100% {
-    -webkit-transform: rotate(1turn);
-            transform: rotate(1turn);
-  }
-}
-@-webkit-keyframes circle-lg {
-  100% {
-    -webkit-transform: rotate(-1turn);
-            transform: rotate(-1turn);
-  }
-}
-@keyframes circle-lg {
-  100% {
-    -webkit-transform: rotate(-1turn);
-            transform: rotate(-1turn);
-  }
 }
