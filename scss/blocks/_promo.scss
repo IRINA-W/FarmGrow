@@ -1,45 +1,15 @@
-// .promo {
-// 	background-color: #e5e5e5;
-// 	background: url('../img/promo/bg.jpg') center / cover no-repeat;
-// 	&__header {
-// 		min-width: 100%;
-// 		min-height: 88px;
-// 		background-color: #f05;
-// 		display: flex;
-// 	}
-// 	&__greetings {}
-// 	&__video {}
-// }
-// .wrapper {
-// }
-
-
 .promo {
 	background: url('../img/bg/flower1.png') -6% 107% / 44.5rem no-repeat, url('../img/bg/main.jpg') 55% / cover no-repeat,  #fdfdfa;
 	// background-color: red;
-	// z-index: -1;
-	// filter: blur(10px);
 	padding-bottom: 5rem;
-	// height: 1000px;
-	// .content {
-	// 	width: 100%;
-	// 	padding-bottom: 16rem;
-	// }
 	&__logo {
 		width: 15.2rem;
 		padding-top: 0.5rem;
-		// line-height: 6rem;
 		img {
 			display: inline-block;
 			vertical-align: middle;
 			width: 100%;
 		}
-		// display: inline-block;
-		// width: 1.52rem;
-		// margin-right: 14rem;
-		// a {
-		// 	color: $fc;
-		// }
 	}
 	&__logo-icon {
 		transform: translateY(50%);
@@ -99,10 +69,14 @@
 		justify-content: center;
 	}
 	&__title {
-		font-size: 7.2rem;
+		font-size: 76px;
 		font-weight: 700;
 		line-height: 86.33px;
-		margin-bottom: 1.6rem;
+		// line-height: 8.63rem;
+		// margin-bottom: 1.6rem;
+
+
+		margin-bottom: 3rem;
 		// margin-right: 1.6rem;
 		span {
 			color: #2aa915;
@@ -110,8 +84,9 @@
 	}
 	&__text {
 		font-size: 2rem;
-		line-height: 2.6rem;
-		margin-bottom: 4rem;
+		line-height: 30px;
+		// line-height: 3rem;
+		margin-bottom: 5rem;
 	}
 	&__icons {
 		// margin-top: 1.9rem;

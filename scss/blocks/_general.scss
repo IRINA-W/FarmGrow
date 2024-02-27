@@ -1,46 +1,33 @@
 html {
 	font-size: 10px;
-	// font-family: 'Comic', sans-serif;
-	// font-family: 'Ubuntu', sans-serif;
-	// font-family: 'Roboto Condensed', sans-serif;
-	// font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 	font-family: Montserrat;
-
 	scroll-behavior: smooth;
-	// background-color: #f55;
-}
-
-body {
-	// background-color: #e5e5e5;
-	// font-size: 2rem;
-	// min-width: 100%;
-	// overflow: hidden;
 }
 
 .wrapper {
-	// width: 100%;
 	max-width: 1440px;
-	height: 100%;
-	margin: 0 auto;
-	color: $fc;
-}
-
-.content {
-	// width: 80%;
-	max-width: 1128px;
 	// width: 50%;
+	overflow: hidden;
 	margin: 0 auto;
 	font-size: 2rem;
 	font-weight: 400;
+	color: $fc;
 }
+
+// .content {
+// 	max-width: 1128px;
+// 	margin: 0 auto;
+// 	font-size: 2rem;
+// 	font-weight: 400;
+
+// 	width: 80%;
+// 	width: 50%;
+// }
 
 .container {}
 
 .btn {
-	// outline: none;
 	position: relative;
-	// width: 16.2rem;
-	// height: 4.8rem;
 	width: 17.7rem;
 	height: 5.6rem;
 	border-radius: 8px;
@@ -72,7 +59,8 @@ body {
 }
 .title {
 	font-weight: 700;
-	font-size: 4.8rem;
+	font-size: 50px;
+	// font-size: 4.8rem;
 }
 .subtitle{}
 

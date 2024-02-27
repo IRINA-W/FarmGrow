@@ -1,0 +1,135 @@
+@media (max-width: 1440px) {
+	html {
+		font-size: calc(8px + (10 - 8) * ((100vw - 320px) / (1440 - 320)));
+	}
+	.title {
+		// font-size: 4.8rem;
+		font-size: calc(24px + (50 - 24) * ((100vw - 320px) / (1440 - 320)));
+		
+		// line-height: 86.33px;
+	}
+	.promo {
+		&__logo {
+		}
+		&__menu {
+		}
+		&__button_gr {
+		}
+		&__content {
+		}
+		&__appeal {
+			width: 100%;
+		}
+		&__title {
+			// font-size: 7.2rem;
+			// line-height: 50px;
+			// margin-bottom: 1.6rem;
+			font-size: calc(44px + (76 - 44) * ((100vw - 320px) / (1440 - 320)));
+			line-height: calc(50px + (86.33 - 50) * ((100vw - 320px) / (1440 - 320)));
+		}
+		&__text {
+		}
+		&__button_pn {
+		}
+		&__icons {
+			width: 100%;
+		}
+		&__icons-set {
+		}
+		&__elem {
+		}
+		&__circle-lg {
+		}
+		&__circle-sm {
+		}
+		&__icon {
+		}
+		&__video {
+		}
+		&__block-video {
+		}
+		&__circle-video {
+		}
+		&__arrow-play {
+		}
+	}
+	.header {
+		&__content {
+		}
+	}
+	.wrapper {
+	}
+	.header_left {
+	}
+	.menu {
+		&__item {
+		}
+	}
+	.header_right {
+	}
+	.btn {
+	}
+	.ecosystem {
+		&__yield {
+		}
+		&__diagram {
+		}
+		&__diagram-item {
+		}
+		&__diagram-column {
+		}
+		&__diagram-text {
+		}
+		&__extra {
+		}
+		&__extra-item {
+		}
+		&__extra-circle {
+		}
+		&__extra-icon {
+		}
+		&__extra-text {
+		}
+		&__farm {
+		}
+		&__farm-items {
+		}
+		&__farm-item {
+		}
+		&__farm-circle {
+		}
+		&__farm-icon {
+		}
+		&__farm-title {
+		}
+		&__farm-text {
+		}
+	}
+	.cl_1 {
+	}
+	.cl_2 {
+	}
+	.cl_3 {
+	}
+	.cl_4 {
+	}
+	.title {
+	}
+	.subtitle {
+	}
+	.footer {
+	}
+}
+@media (max-width: 767px) {
+	.promo {
+		&__content {
+			flex-direction: column;
+		}
+		&__title {
+			// line-height: 50px;
+		}
+		&__text {
+			// line-height: 30px;
+		}
+	}
+}

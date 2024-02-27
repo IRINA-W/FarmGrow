@@ -104,16 +104,11 @@ html {
 
 .wrapper {
   max-width: 1440px;
-  height: 100%;
-  margin: 0 auto;
-  color: #000;
-}
-
-.content {
-  max-width: 1128px;
+  overflow: hidden;
   margin: 0 auto;
   font-size: 2rem;
   font-weight: 400;
+  color: #000;
 }
 
 .btn {
@@ -143,7 +138,7 @@ html {
 
 .title {
   font-weight: 700;
-  font-size: 4.8rem;
+  font-size: 50px;
 }
 
 .footer {
@@ -217,18 +212,18 @@ html {
           justify-content: center;
 }
 .promo__title {
-  font-size: 7.2rem;
+  font-size: 76px;
   font-weight: 700;
   line-height: 86.33px;
-  margin-bottom: 1.6rem;
+  margin-bottom: 3rem;
 }
 .promo__title span {
   color: #2aa915;
 }
 .promo__text {
   font-size: 2rem;
-  line-height: 2.6rem;
-  margin-bottom: 4rem;
+  line-height: 30px;
+  margin-bottom: 5rem;
 }
 .promo__icons {
   display: -webkit-box;
@@ -515,4 +510,30 @@ html {
   font-weight: 500;
   font-size: 18px;
   line-height: 2rem;
+}
+@media (max-width: 1440px) {
+  html {
+    font-size: calc(8px + 2 * (100vw - 320px) / 1120);
+  }
+  .title {
+    font-size: calc(24px + 26 * (100vw - 320px) / 1120);
+  }
+  .promo__appeal {
+    width: 100%;
+  }
+  .promo__title {
+    font-size: calc(44px + 32 * (100vw - 320px) / 1120);
+    line-height: calc(50px + 36.33 * (100vw - 320px) / 1120);
+  }
+  .promo__icons {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .promo__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
